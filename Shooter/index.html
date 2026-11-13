@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooter Game</title>
+    <!-- Ligando o CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shooter Game</h1>
+        <p>Mover: Setas ou WASD | Atirar: ESPAÇO | Pausar: P | Reiniciar: R</p>
+    </header>
+
+    <main>
+        <div class="hud">
+            <p>Pontos: <strong id="pontos">0</strong></p>
+            <p>Vidas: <strong id="vidas">3</strong></p>
+            <p>Ondas: <strong id="ondas">1</strong></p>
+        </div>
+        <canvas id="gameCanvas" width="640" height="480"></canvas>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shooter Game. All rights reserved.</p>
+    </footer>
+
+    <!-- Ligando o JavaScript -->
+    <script src="game.js"></script>
+</body>
+</html>
